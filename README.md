@@ -8,7 +8,7 @@ DCM v2 log files are stored in a bucket that this program accesses. Cloud Storag
 Documentation for v2 of the data transfer files can be found [here](https://developers.google.com/doubleclick-advertisers/udt/overview).
 
 Other helpful docs:
-* [File formats](https://developers.google.com/doubleclick-advertisers/udt/reference/v1/file-format)
+* <a href="https://developers.google.com/doubleclick-advertisers/udt/reference/v1/file-format" target="_blank">DCM log file formats</a>
 * [Match tables](https://developers.google.com/doubleclick-advertisers/udt/reference/v1/match-tables)
 * [A mapping of old v1 data fields to the new v2 data fields.](https://developers.google.com/doubleclick-advertisers/udt/migrating)
 * [gsutil](https://cloud.google.com/storage/docs/gsutil), a Python tool that facilitates command line access to GCS
