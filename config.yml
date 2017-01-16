@@ -1,0 +1,10 @@
+# config file for dcm_v2_import_matchtables.py program.
+
+dcm_v2_import_matchtables:
+  dcm_file_type: "match_table"
+  dcm_file_extension: "gz"
+  dcm_file_mask: "/dcm_account####_match_table_"
+  gcs_bucket_mask: "gs://dcdt_-dcm_account####/dcm_account####_*.csv.gz"
+  dataDir: "/local/vm/path/"
+  hdfsDir: "/hdfs/path/"
+  hdfs_file_type: "matchtables_v2"
