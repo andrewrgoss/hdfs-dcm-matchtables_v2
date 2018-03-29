@@ -1,5 +1,5 @@
 # Overview
-This is my code that pulls down daily DoubleClick Campaign Manager (DCM) log files (v2) from Google Cloud Storage (GCS) and loads them into Hadoop Distributed File System (HDFS) for use in Hive queries. The script fully replaces matchtable_v2 files with each day's new log file on HDFS.
+This is my code that pulls down daily DoubleClick Campaign Manager (DCM) log files (v2) from Google Cloud Storage (GCS) and loads them into Hadoop Distributed File System (HDFS) for use in Hive queries. The script fully replaces matchtable_v2 files with each day's new log file on HDFS. Match tables are demoed here, but it is imperative to frequently download other log files that change more often (ex. clicks and impressions on an hourly basis).
 
 ## Google Cloud Storage
 DCM v2 log files are stored in a bucket that this program accesses. Cloud Storage lets you store unstructured objects in containers called buckets. You can serve static data directly from Cloud Storage, or you can use it to store data for other Google Cloud Platform services. For more information, [click here](https://console.cloud.google.com/storage/browser).
